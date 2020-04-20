@@ -2,14 +2,6 @@
 
 def display_rainbow(colors)
   
-  output = ''
-  
-  colors.each |color|
-    
-    color_text = "#{color[0].upcase}: #{color},"
-    
-    output = output + color_text
-    
-  end
+  puts "#{color[0][0].upcase}: #{color[0]},"
   
 end
