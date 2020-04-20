@@ -4,7 +4,7 @@ def display_rainbow(colors)
   
   output = ''
   
-  colors.each |color| do
+  colors.each |color|
     
     color_text = "#{color[0].upcase}: #{color},"
     
