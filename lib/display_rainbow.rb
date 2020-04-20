@@ -8,6 +8,7 @@ def display_rainbow(colors)
   puts "#{color[3][0].upcase}: #{color[3]},"
   puts "#{color[4][0].upcase}: #{color[4]},"
   puts "#{color[5][0].upcase}: #{color[5]},"
+  puts "#{color[6][0].upcase}: #{color[6]}"
   
   
 end
